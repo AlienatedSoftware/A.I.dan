@@ -44,8 +44,10 @@ INSTALLED_APPS = [
     'djoser',
 ]
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-alienatedsoftwa-aidan-qzwbvvo6w3o.ws-eu29.gitpod.io']
+
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8080",
+    "https://8000-alienatedsoftwa-aidan-qzwbvvo6w3o.ws-eu29.gitpod.io", "https://localhost:8000"
 ]
 
 MIDDLEWARE = [
